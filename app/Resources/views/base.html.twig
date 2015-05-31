@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--========================== BASIC ==========================-->
+        <meta charset="UTF-8">
+        <title>Der Ketzer CV | Codemonkey</title>
+        <meta name="description" content="Der Ketzer CV">
+        <meta name="keywords" content="Der Ketzer, Codemonkey">
+        <meta name="author" content="Der Ketzer">
+
+        <!--========================== MOBILE SPECIFIC METAS ==========================-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <!--========================== HTML5 SHIM AND RESPOND.MIN.JS ==========================-->
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+
+        <!--========================== CSS ==========================-->
+        {% stylesheets 'bundles/codemonkeycvwebsite/css/*' filter="cssrewrite" %}
+        <link rel="stylesheet" href="{{ asset_url }}" />
+        {% endstylesheets %}
+
+        <!--========================== GOOGLE FONTS ==========================-->
+        <link href='http://fonts.googleapis.com/css?family=Raleway:100,300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body>
+        {% block body %}{% endblock %}
+
+        <!--========================== JAVASCRIPT ==========================--> 
+        {% javascripts '@CodemonkeyCVWebsiteBundle/Resources/public/js/*' %}
+        <script type="text/javascript" src="{{ asset_url }}"></script>
+        {% endjavascripts %}
+        <!--========================== END JAVASCRIPT ==========================-->
+    </body>
+</html>
