@@ -1,0 +1,3 @@
+codemonkey_cv_website:
+    resource: "@CodemonkeyCVWebsiteBundle/Resources/config/routing.yml"
+    prefix:   /
