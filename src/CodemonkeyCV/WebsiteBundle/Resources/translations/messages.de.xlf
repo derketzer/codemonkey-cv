@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="de" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>katanastudios.title.bienvenido</source>
+                <target>Willkommen zu</target>
+            </trans-unit>
+
+            <trans-unit id="2">
+                <source>katanastudios.title.mi</source>
+                <target>mein</target>
+            </trans-unit>
+
+            <trans-unit id="3">
+                <source>katanastudios.title.llamo</source>
+                <target>Ich heisse</target>
+            </trans-unit>
+
+            <trans-unit id="4">
+                <source>katanastudios.title.soy</source>
+                <target>Und bin ein</target>
+            </trans-unit>
+
+            <trans-unit id="5">
+                <source>katanastudios.title.desarrollador</source>
+                <target>Entwickler</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>katanastudios.title.sobremi</source>
+                <target>Über mich</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
