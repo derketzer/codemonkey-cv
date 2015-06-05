@@ -946,7 +946,7 @@
 		}
 
 	#slide1{ 
-		background-image: url(../../bundles/codemonkeycvwebsite/img/top.jpg);
+		background-image: url(../bundles/codemonkeycvwebsite/img/top.jpg);
 		background-repeat: no-repeat;
 		background-attachment: fixed;		
 		-webkit-background-size: cover;
@@ -1092,11 +1092,11 @@
 ============================================================ */
 	@font-face {
 		font-family: 'BebasNeueRegular';
-			src: url('../../bundles/codemonkeycvwebsite/fonts/BebasNeue-webfont.eot');
-			src: url('../../bundles/codemonkeycvwebsite/fonts/BebasNeue-webfont.eot?iefix') format('eot'),
-			url('../../bundles/codemonkeycvwebsite/fonts/BebasNeue-webfont.woff') format('woff'),
-			url('../../bundles/codemonkeycvwebsite/fonts/BebasNeue-webfont.ttf') format('truetype'),
-			url('../../bundles/codemonkeycvwebsite/fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+			src: url('../bundles/codemonkeycvwebsite/fonts/BebasNeue-webfont.eot');
+			src: url('../bundles/codemonkeycvwebsite/fonts/BebasNeue-webfont.eot?iefix') format('eot'),
+			url('../bundles/codemonkeycvwebsite/fonts/BebasNeue-webfont.woff') format('woff'),
+			url('../bundles/codemonkeycvwebsite/fonts/BebasNeue-webfont.ttf') format('truetype'),
+			url('../bundles/codemonkeycvwebsite/fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
 		font-weight: normal;
 	}
 
@@ -1935,8 +1935,8 @@ polikin.ca
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('../../bundles/codemonkeycvwebsite/fonts/fontawesome-webfont.eot?v=4.0.3');
-  src: url('../../bundles/codemonkeycvwebsite/fonts/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('../../bundles/codemonkeycvwebsite/fonts/fontawesome-webfont.woff?v=4.0.3') format('woff'), url('../../bundles/codemonkeycvwebsite/fonts/fontawesome-webfont.ttf?v=4.0.3') format('truetype'), url('../../bundles/codemonkeycvwebsite/fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
+  src: url('../bundles/codemonkeycvwebsite/fonts/fontawesome-webfont.eot?v=4.0.3');
+  src: url('../bundles/codemonkeycvwebsite/fonts/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('../bundles/codemonkeycvwebsite/fonts/fontawesome-webfont.woff?v=4.0.3') format('woff'), url('../bundles/codemonkeycvwebsite/fonts/fontawesome-webfont.ttf?v=4.0.3') format('truetype'), url('../bundles/codemonkeycvwebsite/fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -3466,7 +3466,7 @@ polikin.ca
 /* 	LIGHTBOX
 ============================================================ */	
 	body:after {
-		content: url(../../bundles/codemonkeycvwebsite/assets/close.png);
+		content: url(../bundles/codemonkeycvwebsite/assets/close.png);
 		display: none;
 		}
 
@@ -3567,7 +3567,7 @@ polikin.ca
 		}
 
 	.lb-prev:hover {
-		background: url(../../bundles/codemonkeycvwebsite/img/prev.png) left 48% no-repeat;
+		background: url(../bundles/codemonkeycvwebsite/img/prev.png) left 48% no-repeat;
 		}
 
 	.lb-next {
@@ -3576,7 +3576,7 @@ polikin.ca
 		}
 
 	.lb-next:hover {
-		background: url(../../bundles/codemonkeycvwebsite/img/next.png) right 48% no-repeat;
+		background: url(../bundles/codemonkeycvwebsite/img/next.png) right 48% no-repeat;
 		}
 		
 	.lb-dataContainer {
@@ -3635,7 +3635,7 @@ polikin.ca
 		float: right;
 		width: 30px;
 		height: 30px;
-		background: url(../../bundles/codemonkeycvwebsite/assets/close.png) top right no-repeat;
+		background: url(../bundles/codemonkeycvwebsite/assets/close.png) top right no-repeat;
 		text-align: right;
 		outline: none;
 		filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);

@@ -7,7 +7,7 @@ imports:
 # http://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
     locale: es
-    app.locales: |de|en
+    app.locales: |de|en|es
 
 framework:
     #esi:             ~

@@ -31,6 +31,46 @@
                 <source>katanastudios.title.sobremi</source>
                 <target>Über mich</target>
             </trans-unit>
+
+            <trans-unit id="7">
+				<source>katanastudios.title.conocimientos</source>
+				<target>Kenntnisse</target>
+			</trans-unit>
+
+			<trans-unit id="8">
+				<source>katanastudios.title.anos</source>
+				<target>Jahre</target>
+			</trans-unit>
+
+            <trans-unit id="9">
+                <source>katanastudios.title.ano</source>
+                <target>Jahr</target>
+            </trans-unit>
+
+            <trans-unit id="10">
+                <source>katanastudios.title.ingles</source>
+                <target>Englisch</target>
+            </trans-unit>
+
+            <trans-unit id="11">
+                <source>katanastudios.title.aleman</source>
+                <target>Deutsch</target>
+            </trans-unit>
+
+            <trans-unit id="12">
+                <source>katanastudios.title.espanol</source>
+                <target>Spanisch</target>
+            </trans-unit>
+
+            <trans-unit id="13">
+                <source>katanastudios.title.servicios</source>
+                <target>Dienste</target>
+            </trans-unit>
+
+            <trans-unit id="14">
+                <source>katanastudios.title.educacion</source>
+                <target>Ausbildung</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>

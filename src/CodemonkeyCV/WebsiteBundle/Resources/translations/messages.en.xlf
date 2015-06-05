@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-    <file source-language="de" datatype="plaintext" original="file.ext">
+    <file source-language="en" datatype="plaintext" original="file.ext">
         <body>
             <trans-unit id="1">
                 <source>katanastudios.title.bienvenido</source>
@@ -30,6 +30,46 @@
             <trans-unit id="6">
                 <source>katanastudios.title.sobremi</source>
                 <target>About me</target>
+            </trans-unit>
+
+            <trans-unit id="7">
+				<source>katanastudios.title.conocimientos</source>
+				<target>Skills</target>
+			</trans-unit>
+
+            <trans-unit id="8">
+                <source>katanastudios.title.anos</source>
+                <target>Years</target>
+            </trans-unit>
+
+            <trans-unit id="9">
+                <source>katanastudios.title.ano</source>
+                <target>Year</target>
+            </trans-unit>
+
+            <trans-unit id="10">
+                <source>katanastudios.title.ingles</source>
+                <target>English</target>
+            </trans-unit>
+
+            <trans-unit id="11">
+                <source>katanastudios.title.aleman</source>
+                <target>German</target>
+            </trans-unit>
+
+            <trans-unit id="12">
+                <source>katanastudios.title.espanol</source>
+                <target>Spanish</target>
+            </trans-unit>
+
+            <trans-unit id="13">
+                <source>katanastudios.title.servicios</source>
+                <target>Services</target>
+            </trans-unit>
+
+            <trans-unit id="14">
+                <source>katanastudios.title.educacion</source>
+                <target>Education</target>
             </trans-unit>
         </body>
     </file>

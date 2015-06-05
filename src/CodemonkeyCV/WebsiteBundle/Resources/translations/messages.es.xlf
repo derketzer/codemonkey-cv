@@ -31,6 +31,46 @@
                 <source>katanastudios.title.sobremi</source>
                 <target>Sobre mí</target>
             </trans-unit>
+
+            <trans-unit id="7">
+				<source>katanastudios.title.conocimientos</source>
+				<target>Conocimientos</target>
+			</trans-unit>
+
+			<trans-unit id="8">
+				<source>katanastudios.title.anos</source>
+				<target>Años</target>
+			</trans-unit>
+
+            <trans-unit id="9">
+                <source>katanastudios.title.ano</source>
+                <target>Año</target>
+            </trans-unit>
+
+            <trans-unit id="10">
+                <source>katanastudios.title.ingles</source>
+                <target>Inglés</target>
+            </trans-unit>
+
+            <trans-unit id="11">
+                <source>katanastudios.title.aleman</source>
+                <target>Alemán</target>
+            </trans-unit>
+
+            <trans-unit id="12">
+                <source>katanastudios.title.espanol</source>
+                <target>Español</target>
+            </trans-unit>
+
+            <trans-unit id="13">
+                <source>katanastudios.title.servicios</source>
+                <target>Servicios</target>
+            </trans-unit>
+
+            <trans-unit id="14">
+                <source>katanastudios.title.educacion</source>
+                <target>Educación</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
