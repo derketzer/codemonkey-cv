@@ -71,6 +71,61 @@
                 <source>katanastudios.title.educacion</source>
                 <target>Educación</target>
             </trans-unit>
+
+            <trans-unit id="15">
+				<source>katanastudios.title.administracion</source>
+				<target>Administración</target>
+			</trans-unit>
+
+            <trans-unit id="16">
+                <source>katanastudios.title.experiencia</source>
+                <target>Experiencia</target>
+            </trans-unit>
+
+            <trans-unit id="17">
+                <source>katanastudios.title.contacto</source>
+                <target>Contacto</target>
+            </trans-unit>
+
+            <trans-unit id="18">
+                <source>katanastudios.title.contacto</source>
+                <target>Contacto</target>
+            </trans-unit>
+
+            <trans-unit id="19">
+                <source>katanastudios.title.may</source>
+                <target>May</target>
+            </trans-unit>
+
+            <trans-unit id="20">
+                <source>katanastudios.title.ago</source>
+                <target>Ago</target>
+            </trans-unit>
+
+            <trans-unit id="21">
+                <source>katanastudios.title.mar</source>
+                <target>Mar</target>
+            </trans-unit>
+
+            <trans-unit id="22">
+                <source>katanastudios.title.nombre</source>
+                <target>Nombre</target>
+            </trans-unit>
+
+            <trans-unit id="23">
+                <source>katanastudios.title.asunto</source>
+                <target>Asunto</target>
+            </trans-unit>
+
+            <trans-unit id="24">
+                <source>katanastudios.title.mensaje</source>
+                <target>Mensaje</target>
+            </trans-unit>
+
+            <trans-unit id="25">
+                <source>katanastudios.title.enviar</source>
+                <target>Enviar</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>

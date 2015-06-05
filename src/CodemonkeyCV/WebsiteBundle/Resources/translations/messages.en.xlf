@@ -71,6 +71,56 @@
                 <source>katanastudios.title.educacion</source>
                 <target>Education</target>
             </trans-unit>
+
+            <trans-unit id="15">
+                <source>katanastudios.title.administracion</source>
+                <target>Administration</target>
+            </trans-unit>
+
+            <trans-unit id="16">
+                <source>katanastudios.title.experiencia</source>
+                <target>Experience</target>
+            </trans-unit>
+
+            <trans-unit id="17">
+                <source>katanastudios.title.contacto</source>
+                <target>Contact</target>
+            </trans-unit>
+
+            <trans-unit id="19">
+                <source>katanastudios.title.may</source>
+                <target>May</target>
+            </trans-unit>
+
+            <trans-unit id="20">
+                <source>katanastudios.title.ago</source>
+                <target>Aug</target>
+            </trans-unit>
+
+            <trans-unit id="21">
+                <source>katanastudios.title.mar</source>
+                <target>Mar</target>
+            </trans-unit>
+
+            <trans-unit id="22">
+                <source>katanastudios.title.nombre</source>
+                <target>Name</target>
+            </trans-unit>
+
+            <trans-unit id="23">
+                <source>katanastudios.title.asunto</source>
+                <target>Subject</target>
+            </trans-unit>
+
+            <trans-unit id="24">
+                <source>katanastudios.title.mensaje</source>
+                <target>Message</target>
+            </trans-unit>
+
+            <trans-unit id="25">
+                <source>katanastudios.title.enviar</source>
+                <target>Send</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
