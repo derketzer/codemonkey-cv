@@ -1,27 +1,26 @@
 <!--========================== CONTACTS ==========================-->
 <section id="contact"> 
-	<div class="contact-header">Contáctame</div>
+	<div class="contact-header">{{ 'katanastudios.title.contacto'|trans }}</div>
 	<span></span>
 
 	<!-- Start Container -->
 	<div class="container">
 		<!-- Contact Form -->
-		<!--form method="post" action="/contacto">
-			<div class="eight columns">
-				<input type="text" class="name" placeholder="Nombre" required="required" name="Name">
-				<input type="email" class="email" placeholder="Correo electrónico" required="required" name="Email">
-				<input type="text" class="subject" placeholder="Asunto" required="required" name="Subject">
-			</div>
+        {{ form_start(form) }}
+            <div class="eight columns">
+                {{ form_widget(form.Nombre) }}
+                {{ form_widget(form.Mail) }}
+                {{ form_widget(form.Asunto) }}
+            </div>
 
-			<div class="eight columns">
-				<textarea name="Message" required rows="20" cols="20" class="message" placeholder="Mensaje">
-				</textarea>
-			</div>
+            <div class="eight columns">
+                {{ form_widget(form.Mensaje) }}
+            </div>
 
-			<div class="sixteen columns ">
-				<input type="submit" name="submit" value="Enviar" class="submit-button" />
-			</div>
-		</form-->
+            <div class="sixteen columns">
+                {{ form_widget(form.enviar) }}
+            </div>
+        {{ form_end(form) }}
 		<!-- End Contact Form -->
 
 		<div class="row"></div>

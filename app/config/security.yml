@@ -1,7 +1,11 @@
 security:
     providers:
         in_memory:
-            memory: ~
+            memory:
+              users:
+                der_ketzer:
+                  password: $2a$12$kgUURIvwMO0N64u0aOXsD.MJRThBp2sYGo.gkmfyghcMLwW0n7mGm
+                  roles: 'ROLE_ADMIN'
 
     firewalls:
         dev:
@@ -10,3 +14,15 @@ security:
 
         default:
             anonymous: ~
+
+        web_dev:
+            host: dev.katanastudios.com
+            http_basic: ~
+
+    access_control:
+        - { host: dev.katanastudios.com, path: ^/, roles: ROLE_ADMIN }
+
+    encoders:
+        Symfony\Component\Security\Core\User\User:
+            algorithm: bcrypt
+            cost: 12

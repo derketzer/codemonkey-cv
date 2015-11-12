@@ -791,7 +791,7 @@
 		padding-left: 15px;   
 		}
 	
-	#contact input.submit-button {
+	#contact input.submit-button, #contact button.submit-button {
 		background: #E8230F;
 		font-family: 'Oswald', sans-serif;
 		font-size: 14px; 
@@ -813,7 +813,7 @@
 		border-radius: 1px;  
 		}
 		
-	#contact input.submit-button:hover {  
+	#contact input.submit-button:hover, #contact button.submit-button:hover {
 		color: #000;
 		-webkit-transition: all 0.5s ease-in-out;
 		-moz-transition: all 0.5s ease-in-out;
