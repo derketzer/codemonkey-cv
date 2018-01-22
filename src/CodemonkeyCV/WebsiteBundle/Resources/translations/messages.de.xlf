@@ -121,6 +121,11 @@
                 <source>katanastudios.title.enviar</source>
                 <target>Senden</target>
             </trans-unit>
+
+            <trans-unit id="26">
+                <source>katanastudios.title.oct</source>
+                <target>Okt</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
