@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <!--========================== BASIC ==========================-->
+        <meta charset="UTF-8">
+        <title>Der Ketzer CV | Katana Studios</title>
+        <meta name="description" content="Der Ketzer CV">
+        <meta name="keywords" content="der ketzer, codemonkey, web developer, css, html, php, der_ketzer, derketzer, katanastudios">
+        <meta name="author" content="Der Ketzer">
+
+        <meta name="google-site-verification" content="UYRgeFJLYRQcAyEJZPXtX65ECslO24IiNA-_O3qzWrc" />
+        <meta name="msvalidate.01" content="0873A5C5B4FC1DA8BB5DAEC4F90FDF03" />
+
+        <!--========================== MOBILE SPECIFIC METAS ==========================-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <!--========================== CSS ==========================-->
+        <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
+        <link rel="stylesheet" href="{{ asset('css/skeleton.css') }}" />
+        <link rel="stylesheet" href="{{ asset('css/base.css') }}" />
+        <link rel="stylesheet" href="{{ asset('css/layout.css') }}" />
+        <link rel="stylesheet" href="{{ asset('css/font-awesome.css') }}" />
+        <link rel="stylesheet" href="{{ asset('css/flexslider.css') }}" />
+        <link rel="stylesheet" href="{{ asset('css/lightbox.css') }}" />
+        <link rel="stylesheet" href="{{ asset('css/jpreloader.css') }}" />
+
+        <!--========================== GOOGLE FONTS ==========================-->
+        <link href='http://fonts.googleapis.com/css?family=Raleway:100,300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+
+        {%  if not app.debug %}
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-63580750-1"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'UA-63580750-1');
+            </script>
+        {% endif %}
+    </head>
+
+    <body>
+        {% block body %}{% endblock %}
+
+        <!--========================== JAVASCRIPT ==========================-->
+        <script type="text/javascript" src="{{ asset('js/jquery.v1.10.2.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/modernizr.custom.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/jquery.flexslider.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/jquery.stellar.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/waypoints.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/jquery.easing.1.3.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/jquery.mixitup.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/jquery.validate.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/jquery.tooltipster.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/jQuery.circleMenu.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/lightbox-2.6.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/jpreloader.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/plugins.js') }}"></script>
+
+        <!--========================== END JAVASCRIPT ==========================-->
+        <div class="copyright">
+            Katana Studios 2019 &copy; | Cover photo by: <a href="https://www.flickr.com/photos/jonrohan/" target="_blank">Jon Rohan</a>
+        </div>
+    </body>
+</html>

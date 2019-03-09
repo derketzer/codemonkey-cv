@@ -1,0 +1,44 @@
+<!--========================== CONTACTS ==========================-->
+<section id="contact">
+    <div class="contact-header">{{ 'katanastudios.title.contacto'|trans }}</div>
+    <span></span>
+
+    <!-- Start Container -->
+    <div class="container">
+        <!-- Contact Form -->
+        {{ form_start(form) }}
+        <div class="eight columns">
+            {{ form_widget(form.name) }}
+            {{ form_widget(form.email) }}
+            {{ form_widget(form.subject) }}
+        </div>
+
+        <div class="eight columns">
+            {{ form_widget(form.message) }}
+        </div>
+
+        <div class="sixteen columns">
+            {{ form_widget(form.send) }}
+        </div>
+        {{ form_end(form) }}
+        <!-- End Contact Form -->
+
+        <div class="row"></div>
+
+        <!-- Social Icons -->
+        <div class="social-icons">
+            <a href="https://www.instagram.com/der_ketzerd" class="tooltip" title="Instagram" target="_blank">
+                <i class="social-icon fa fa-instagram fa-2x"></i>
+            </a>
+            <a href="https://www.twitter.com/der_ketzer" class="tooltip" title="Twitter" target="_blank">
+                <i class="social-icon fa fa-twitter fa-2x"></i>
+            </a>
+            <a href="http://www.der-ketzer.com/blog" class="tooltip" title="Blog" target="_blank">
+                <i class="social-icon fa fa-book fa-2x"></i>
+            </a>
+        </div><!-- End Social Icons -->
+
+    </div>
+    <!-- End Container -->
+</section>
+<!--========================== END CONTACTS ==========================-->

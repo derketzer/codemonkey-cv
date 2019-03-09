@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="es" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>katanastudios.title.bienvenido</source>
+                <target>Bienvenido a</target>
+            </trans-unit>
+
+            <trans-unit id="2">
+                <source>katanastudios.title.mi</source>
+                <target>mi</target>
+            </trans-unit>
+
+            <trans-unit id="3">
+                <source>katanastudios.title.llamo</source>
+                <target>Me llamo</target>
+            </trans-unit>
+
+            <trans-unit id="4">
+                <source>katanastudios.title.soy</source>
+                <target>Y soy un</target>
+            </trans-unit>
+
+            <trans-unit id="5">
+                <source>katanastudios.title.desarrollador</source>
+                <target>desarrollador</target>
+            </trans-unit>
+
+            <trans-unit id="6">
+                <source>katanastudios.title.sobremi</source>
+                <target>Sobre mí</target>
+            </trans-unit>
+
+            <trans-unit id="7">
+                <source>katanastudios.title.conocimientos</source>
+                <target>Conocimientos</target>
+            </trans-unit>
+
+            <trans-unit id="8">
+                <source>katanastudios.title.anos</source>
+                <target>Años</target>
+            </trans-unit>
+
+            <trans-unit id="9">
+                <source>katanastudios.title.ano</source>
+                <target>Año</target>
+            </trans-unit>
+
+            <trans-unit id="10">
+                <source>katanastudios.title.ingles</source>
+                <target>Inglés</target>
+            </trans-unit>
+
+            <trans-unit id="11">
+                <source>katanastudios.title.aleman</source>
+                <target>Alemán</target>
+            </trans-unit>
+
+            <trans-unit id="12">
+                <source>katanastudios.title.espanol</source>
+                <target>Español</target>
+            </trans-unit>
+
+            <trans-unit id="13">
+                <source>katanastudios.title.servicios</source>
+                <target>Servicios</target>
+            </trans-unit>
+
+            <trans-unit id="14">
+                <source>katanastudios.title.educacion</source>
+                <target>Educación</target>
+            </trans-unit>
+
+            <trans-unit id="15">
+                <source>katanastudios.title.administracion</source>
+                <target>Administración</target>
+            </trans-unit>
+
+            <trans-unit id="16">
+                <source>katanastudios.title.experiencia</source>
+                <target>Experiencia</target>
+            </trans-unit>
+
+            <trans-unit id="17">
+                <source>katanastudios.title.contacto</source>
+                <target>Contacto</target>
+            </trans-unit>
+
+            <trans-unit id="18">
+                <source>katanastudios.title.contacto</source>
+                <target>Contacto</target>
+            </trans-unit>
+
+            <trans-unit id="19">
+                <source>katanastudios.title.may</source>
+                <target>May</target>
+            </trans-unit>
+
+            <trans-unit id="20">
+                <source>katanastudios.title.ago</source>
+                <target>Ago</target>
+            </trans-unit>
+
+            <trans-unit id="21">
+                <source>katanastudios.title.mar</source>
+                <target>Mar</target>
+            </trans-unit>
+
+            <trans-unit id="22">
+                <source>katanastudios.title.nombre</source>
+                <target>Nombre</target>
+            </trans-unit>
+
+            <trans-unit id="23">
+                <source>katanastudios.title.asunto</source>
+                <target>Asunto</target>
+            </trans-unit>
+
+            <trans-unit id="24">
+                <source>katanastudios.title.mensaje</source>
+                <target>Mensaje</target>
+            </trans-unit>
+
+            <trans-unit id="25">
+                <source>katanastudios.title.enviar</source>
+                <target>Enviar</target>
+            </trans-unit>
+
+            <trans-unit id="26">
+                <source>katanastudios.title.oct</source>
+                <target>Oct</target>
+            </trans-unit>
+
+            <trans-unit id="27">
+                <source>katanastudios.title.email</source>
+                <target>Correo electrónico</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,3 +1,0 @@
-codemonkey_cv_varios_homepage:
-    path:     /
-    defaults: { _controller: CodemonkeyCVVariosBundle:Default:index }

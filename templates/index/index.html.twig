@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    {# Include Slide Top #}
+    {{ include('includes/top.html.twig') }}
+
+    <!-- Start Container -->
+    <div class="container">
+
+        {# Include About Me #}
+        {{ include('includes/about.html.twig') }}
+
+        {# Include Skills #}
+        {{ include('includes/skills.html.twig') }}
+
+        {# Include Services #}
+        {# include('CodemonkeyCVWebsiteBundle:Includes:Services.html.twig') #}
+
+        {# Include Portfolio #}
+        {#{ include('CodemonkeyCVWebsiteBundle:Includes:Portfolio.html.twig') }#}
+
+        {# Include Experience #}
+        {{ include('includes/experience.html.twig') }}
+
+        {# Include Education #}
+        {{ include('includes/education.html.twig') }}
+
+    </div>
+    <!-- End Container -->
+
+    <div class="row"></div>
+
+    {# Include Contact #}
+    {{ include('includes/contact.html.twig') }}
+
+    <!-- Back To Top Button -->
+    <div class="top-icon">
+        <a href="#slider" class="tooltip top" title="Back to Top">
+            <i class="up-icon fa fa-angle-double-up fa-2x"></i>
+        </a>
+    </div>
+    <!-- End Back To Top Button -->
+{% endblock %}

@@ -1,7 +1,0 @@
-codemonkey_cv_website_homepage:
-    path:  /
-    defaults: { _controller: CodemonkeyCVWebsiteBundle:Default:index }
-
-codemonkey_cv_website_contacto:
-    path:  /contacto
-    defaults: { _controller: CodemonkeyCVWebsiteBundle:Default:contacto }
